@@ -1,6 +1,6 @@
 # Stockit Desktop
 
-Stockit Desktop is an ElectronJS-based stock management application, designed for efficient offline inventory, sales, and customer tracking. Enjoy a modern, responsive dashboard for managing your business operations directly from your desktop.
+Stockit Desktop is an ElectronJS-based stock management application for efficient offline inventory, sales, and customer tracking. It connects to the Stockit Backend (Node.js/Express/MongoDB REST API) to provide a seamless experience for retail stores, including authentication, billing, payment integration, and AI-powered business suggestions.
 
 ## Related Projects
 
@@ -10,15 +10,23 @@ Stockit Desktop is an ElectronJS-based stock management application, designed fo
 - **Backend GitHub:** [https://github.com/VaibhavTalkhande/stockit-backend](https://github.com/VaibhavTalkhande/stockit-backend)
 
 ---
-## Features
 
-- 📦 Product management: Add, edit, and track products.
-- 🛒 Sales tracking: Manage sales orders.
-- 👥 Customer insights: Monitor customer activity.
-- 📊 Dashboard: Real-time statistics on revenue, orders, customers, and inventory.
-- 🔒 Authentication: Secure login and user management.
-- ⚡ Fast, responsive desktop UI.
-- 🖥️ Offline support for desktop usage.
+## Features & Functionality
+
+- **User Authentication:** Secure login, logout, and JWT-based session management.
+- **Password Management:** Forgot/reset password flows with email tokens.
+- **Store Management:** Each user is linked to a store for isolated data.
+- **Product Management:** Add, edit, delete, and track products and stock.
+- **Customer Management:** CRUD operations, purchase history, and insights.
+- **Sales Management:** Create sales, update stock, track payments, and integrate with Stripe.
+- **Billing & Email:** Generate and email bills/receipts to customers.
+- **Payment Integration:** Stripe Checkout for online payments and payment link resending.
+- **AI Business Suggestions:** Get actionable advice using Gemini AI based on store data.
+- **Role-based Access:** Auth middleware for route protection.
+- **Analytics:** Daily sales, top-selling products, and more.
+- **Dashboard:** Real-time statistics on revenue, orders, customers, and inventory.
+- **Offline Support:** Use the desktop app without internet connectivity.
+- **Fast, Responsive UI:** Built with ElectronJS and React.
 
 ## Getting Started
 
@@ -44,9 +52,8 @@ To run Stockit Desktop locally:
     yarn electron
     ```
 
-4. **Use the app:**
-
-    The desktop window will open automatically.
+4. **Use the app:**  
+   The desktop window will open automatically.
 
 ## Project Structure
 
@@ -58,6 +65,12 @@ To run Stockit Desktop locally:
 ## Technologies Used
 
 - [ElectronJS](https://www.electronjs.org/)
+- [React](https://react.dev/)
+- [Node.js](https://nodejs.org/)
+- [Express.js](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/)
+- [Stripe](https://stripe.com/)
+- [Gemini AI](https://ai.google.dev/)
 
 ## Packaging & Distribution
 
@@ -84,4 +97,4 @@ This project is licensed under the MIT License.
 
 ---
 
-Made with ❤️ using ElectronJS and React.
+Made with ❤️ using ElectronJS.
