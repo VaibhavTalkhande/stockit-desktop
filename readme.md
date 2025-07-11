@@ -25,8 +25,7 @@ Stockit Desktop is an ElectronJS-based stock management application for efficien
 - **Role-based Access:** Auth middleware for route protection.
 - **Analytics:** Daily sales, top-selling products, and more.
 - **Dashboard:** Real-time statistics on revenue, orders, customers, and inventory.
-- **Offline Support:** Use the desktop app without internet connectivity.
-- **Fast, Responsive UI:** Built with ElectronJS and React.
+
 
 ## Getting Started
 
