@@ -20,9 +20,8 @@ Stockit Desktop is an ElectronJS-based stock management application for efficien
 - **Customer Management:** CRUD operations, purchase history, and insights.
 - **Sales Management:** Create sales, update stock, track payments, and integrate with Stripe.
 - **Billing & Email:** Generate and email bills/receipts to customers.
-- **Payment Integration:** Stripe Checkout for online payments and payment link resending.
+- **Payment Integration:** Stripe Checkout ,Webhook for online payments.
 - **AI Business Suggestions:** Get actionable advice using Gemini AI based on store data.
-- **Role-based Access:** Auth middleware for route protection.
 - **Analytics:** Daily sales, top-selling products, and more.
 - **Dashboard:** Real-time statistics on revenue, orders, customers, and inventory.
 
